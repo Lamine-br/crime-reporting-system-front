@@ -8,32 +8,32 @@ export default function GeneralDetails({ data }) {
 
         <div className="w-full grid grid-cols-3 text-lg font-bold">
           <div className="col-span-1 font-normal mb-1 flex">
-            <h4 className="text-lg font-semibold">Report # : </h4>{" "}
+            <h4 className="text-lg font-semibold">Report # :&nbsp; </h4>{" "}
             {data.idReport}
           </div>
           <div className="col-span-1 font-normal mb-1 flex">
-            <h4 className="text-lg font-semibold">Opened on : </h4>{" "}
+            <h4 className="text-lg font-semibold">Opened on :&nbsp; </h4>{" "}
             {data.openingDate}
           </div>
           <div className="col-span-1 font-normal mb-1 flex">
-            <h4 className="text-lg font-semibold">Time : </h4>{" "}
+            <h4 className="text-lg font-semibold">Time :&nbsp; </h4>{" "}
             {data.openingTime}
           </div>
           <div className="col-span-1 font-normal mb-1 flex">
-            <h4 className="text-lg font-semibold"> Status : </h4>
+            <h4 className="text-lg font-semibold"> Status :&nbsp; </h4>
             {"  "}
             {" " + data.status}
           </div>
           <div className="col-span-1 font-normal mb-1 flex">
-            <h4 className="text-lg font-semibold">Closed on : </h4>{" "}
+            <h4 className="text-lg font-semibold">Closed on :&nbsp; </h4>{" "}
             {data.closingDate}
           </div>
           <div className="col-span-1 font-normal mb-1 flex">
-            <h4 className="text-lg font-semibold">Time : </h4>
+            <h4 className="text-lg font-semibold">Time :&nbsp; </h4>
             {data.closingTime}
           </div>
           <div className="col-span-1 font-normal mb-1 flex">
-            <h4 className="text-lg font-semibold">Started by : </h4>{" "}
+            <h4 className="text-lg font-semibold">Started by :&nbsp; </h4>{" "}
             {data.idCitizen}
           </div>
         </div>
